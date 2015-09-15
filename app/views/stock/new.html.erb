@@ -1,0 +1,6 @@
+<%= form_for :stock do |f| %>
+  No. of Shares: <%= f.text_field :no_of_shares %>
+  Stock Name: <%= f.text_field :stock_name %>
+ Share Price: <%= f.text_field :share_price %>
+  <%= f.submit "Create" %>
+<% end %>
