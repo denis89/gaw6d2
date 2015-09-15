@@ -1,0 +1,20 @@
+<h1> Hello  </h1>
+<div class ="client">
+<ul>
+<% @clients.each do |client|  %>
+   <%# artists is an array %>
+   
+   <%#  Link the artist to his or own website.    %>
+   
+   <select name="">
+  <option ><li><%= link_to(client.name, client) %></li></option>
+  <option ><li><%= link_to(client.cash_balance, client) %></li></option>
+
+  <option ><li><%= link_to(client.stock_id, client) %></li></option>
+  </select>
+  
+  <% end %>
+
+   </ul>
+</select>
+   </div>
